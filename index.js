@@ -2,7 +2,7 @@ const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // HEDEF: Senin Minecraft sunucunun web portu
 const TARGET_SERVER = 'http://144.31.46.17:14320';
