@@ -1,0 +1,13 @@
+{
+  "name": "minecraft-web-proxy",
+  "version": "1.0.0",
+  "description": "Render proxy for Minecraft Plugin Web Panel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
